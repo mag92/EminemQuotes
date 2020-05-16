@@ -5,7 +5,7 @@ $quote = explode("\n", $fileContents);
 
 $randomIndex = random_int(0, sizeof($quote));
 
-if ($_GET['format'] == 'json') {
+if (isset($_GET['format']) && $_GET['format'] == 'json') {
 	header('Content-Type: application/json');
 	echo json_encode(array('quote' => $quote[$randomIndex]));
 }
