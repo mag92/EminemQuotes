@@ -8,3 +8,7 @@ A PHP API that generates a random quote by Eminem.
 `getquote.php?format=json` returns a quote in JSON format.
 
 Enhancements and ideas are perfectly welcome and encouraged!
+
+# Demo
+
+https://magdysul.com/emquotes/getquote.php
